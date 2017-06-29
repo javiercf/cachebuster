@@ -1,0 +1,34 @@
+{
+  'env': {
+     'es6': true
+  },
+  'parserOptions': {
+    'ecmaVersion': 6,
+    'sourceType': 'module',
+  },
+  'rules': {
+    'indent': ['error', 'tab'],
+    // ECMAScript 6
+    'arrow-body-style': ['error', 'as-needed' ],
+    'arrow-parens': [ 'error', 'as-needed' ],
+    'arrow-spacing': 'error',
+    'generator-star-spacing': 'error',
+    'no-confusing-arrow': 'error',
+    'no-duplicate-imports': 'error',
+    'no-restricted-imports': 'error',
+    'no-useless-computed-key': 'error',
+    'no-useless-constructor': 'error',
+    'no-var': 'error',
+    'object-shorthand': 'error',
+    'prefer-arrow-callback': 'error',
+    'prefer-const': 'error',
+    'prefer-reflect': 'off',
+    'prefer-rest-params': 'error',
+    'prefer-spread': 'error',
+    'prefer-template': 'error',
+    'require-yield': 'error',
+    'sort-imports': [ 'error', { 'ignoreCase': true }],
+    'template-curly-spacing': 'error',
+    'yield-star-spacing': 'error',
+  }
+}
