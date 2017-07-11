@@ -24,7 +24,13 @@
     "cachebuster",
     "cli"
   ],
+  "homepage": "https://github.com/javiercf/cachebuster",
+  "bugs": "https://github.com/javiercf/cachebuster/issues",
   "author": "Javier Cubides Ferrans <javiercferrans@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/javiercf/cachebuster.git"
+  },
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.5.0",
@@ -36,5 +42,8 @@
     "jest": "^20.0.4",
     "jest-cli": "^20.0.4",
     "sinon": "^2.3.6"
+  },
+  "engines": {
+    "node": ">6.0.0"
   }
 }

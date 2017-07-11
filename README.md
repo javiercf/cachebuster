@@ -1,5 +1,6 @@
 # CACHEBUSTER-CLI
 
+[![Build Status](https://travis-ci.org/javiercf/cachebuster.svg?branch=master)](https://travis-ci.org/javiercf/cachebuster)
 
 cachebuster-cli is a command line tool to generate hashed filenames along with a manifest.json file
 
