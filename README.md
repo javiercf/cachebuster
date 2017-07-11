@@ -1,7 +1,7 @@
 # CACHEBUSTER-CLI
 
 
-cachebuster-cli is a command line tool to generate hashed files along with a manifest.json file
+cachebuster-cli is a command line tool to generate hashed filenames along with a manifest.json file
 
 ## Options
 
@@ -19,10 +19,16 @@ cachebuster-cli is a command line tool to generate hashed files along with a man
 ## Example
 
 With minimum Options:
-`cachebuster -d public/css -o public/css/dist -e css`
+```
+cachebuster -d public/css -o public/css/dist -e css
+```
 
 With multiple extensions
-`cachebuster -d public -o public/dist -e css,js`
+```
+cachebuster -d public -o public/dist -e css,js
+```
 
 With custom publicPath in case you use aws or a cdn
-`cachebuster -d public -o tmp -p htps://s3.amazonaws.com/bucket -e css`
+```
+cachebuster -d public -o tmp -p htps://s3.amazonaws.com/bucket -e css
+```
