@@ -1,6 +1,6 @@
 {
   "name": "cachebuster-cli",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Generates hashed versions of css files and an asset manifest",
   "main": "index.js",
   "scripts": {
