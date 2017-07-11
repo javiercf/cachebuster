@@ -1,6 +1,9 @@
 # CACHEBUSTER-CLI
 
-[![Build Status](https://travis-ci.org/javiercf/cachebuster.svg?branch=master)](https://travis-ci.org/javiercf/cachebuster)
+[![npm version](https://img.shields.io/npm/v/cachebuster-cli.svg)](https://www.npmjs.com/package/cachebuster-cli)
+[![build Status](https://travis-ci.org/javiercf/cachebuster.svg?branch=master)](https://travis-ci.org/javiercf/cachebuster)
+[![dependencies Status](https://david-dm.org/javiercf/cachebuster/status.svg)](https://david-dm.org/javiercf/cachebuster)
+[![devDependencies Status](https://david-dm.org/javiercf/cachebuster/dev-status.svg)](https://david-dm.org/javiercf/cachebuster?type=dev)
 
 cachebuster-cli is a command line tool to generate hashed filenames along with a manifest.json file
 
